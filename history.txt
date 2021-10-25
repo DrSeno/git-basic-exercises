@@ -1,0 +1,83 @@
+    1  Is
+    2  ls
+    3  ls /data
+    4  ls/data
+    5  ls /etc/perl
+    6  ls /
+    7  pwd
+    8  mkdir Learning_unix
+    9  ls
+   10  cd Learning_unix
+   11  Learning_unix$ mkdir Outer_directory
+   12  agbonika.sunday@DESKTOP-MFIOM50 MINGw64 
+   13  agbonika.sunday@DESKTOP-MFIOM5O MINGw64 ~/Learning_unix
+   14  agbonika.sunday@DESKTOP-MFIOM5O MINGw64 ~/Learning_unix mkdir Outer_directory
+   15  ls
+   16  cd Learning_unix
+   17  Learning_unix$ mkdir Outer_directory
+   18  mkdir -p Outer_directory/Inner_directory
+   19  Learning_unix/Outer_directory/Inner_directory$ cd /
+   20  agbonika.sunday@DESKTOP-MFI0M5O@:~Learning_unix/Outer_directory/Inner_directory$ cd /
+   21  cd /home/agbonika.sunday/
+   22  cd /home/agbonika.sunday@DESKTOP-MFI0M5O/
+   23  cd Learning_unix/
+   24  cd ..
+   25  cd /
+   26  cd ~
+   27  cd
+   28  pwd
+   29  cd ~/Learning_unix
+   30  cd /users/agbonika.sunday/
+   31  pwd
+   32  git config --list
+   33  git config --list --show-origin
+   34  git config --global init.defaultBranch main
+   35  git branch
+   36  git branch main
+   37  git checkout main
+   38  ls -a
+   39  git status
+   40  git log
+   41  git log --oneline
+   42  git add README.md; git commit -m "First commit read me"
+   43  git status
+   44  git log
+   45  git log --oneline
+   46  git log
+   47  q
+   48  nano README.md
+   49  cat README.md
+   50  git status
+   51  git add README.md; git commit -m "second commit"
+   52  git status
+   53  git log --oneline
+   54  nano README.md
+   55  git add README.md; git commit -m "third commit"
+   56  git status
+   57  git log --oneline
+   58  git diff
+   59  git log
+   60  git checkout c2be86ebd2d28a833002b64fcc7f9bf2a1d4abb4
+   61  cat README.md
+   62  git checkout main
+   63  cat README.md
+   64  git branch
+   65  git branch
+   66  git checkout milkshake-flavours
+   67  git branch
+   68  cat milkshake-flavours
+   69  nano milkshakes,md
+   70  nano milkshakes.md
+   71  git status
+   72  git add milkshakes.md
+   73  git commit -m "added initial flavours"
+   74  git log
+   75  git log --oneline
+   76  git checkout main
+   77  ls
+   78  git status
+   79  git branch history
+   80  git checkout history
+   81  git log
+   82  git branch
+   83  history > history.txt
